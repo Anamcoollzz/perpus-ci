@@ -75,9 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '127.0.0.1',
+	'port' => 3332,
 	'username' => 'root',
-	'password' => 'root',
+	'password' => '',
 	'database' => 'perpus2',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
